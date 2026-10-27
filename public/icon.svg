@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  
+  <!-- Outer Headset Visor -->
+  <rect x="76" y="156" width="360" height="200" rx="60" fill="#1e293b" stroke="#38bdf8" stroke-width="8"/>
+  
+  <!-- Headset Strap Hinges -->
+  <rect x="46" y="226" width="30" height="60" rx="8" fill="#334155"/>
+  <rect x="436" y="226" width="30" height="60" rx="8" fill="#334155"/>
+  
+  <!-- Headset Front Visor Glass -->
+  <rect x="96" y="176" width="320" height="160" rx="44" fill="#090d16" stroke="rgba(56, 189, 248, 0.4)" stroke-width="3"/>
+  
+  <!-- Left Eye VR Lens -->
+  <circle cx="196" cy="256" r="48" fill="url(#lens)" stroke="#38bdf8" stroke-width="4"/>
+  <circle cx="196" cy="256" r="28" fill="#0369a1" opacity="0.6"/>
+  <circle cx="186" cy="246" r="10" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Right Eye VR Lens -->
+  <circle cx="316" cy="256" r="48" fill="url(#lens)" stroke="#38bdf8" stroke-width="4"/>
+  <circle cx="316" cy="256" r="28" fill="#0369a1" opacity="0.6"/>
+  <circle cx="306" cy="246" r="10" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Center Nose Bridge Notch -->
+  <path d="M 236 336 C 244 316 268 316 276 336 Z" fill="#1e293b"/>
+  
+  <!-- Stereo Wave / Horizon Line -->
+  <path d="M 120 256 L 140 256 M 372 256 L 392 256" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+</svg>

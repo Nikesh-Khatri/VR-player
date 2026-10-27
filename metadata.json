@@ -1,0 +1,8 @@
+{
+  "name": "Remix OmniVR - Stereoscopic 3D \u0026 VR Video Player",
+  "description": "Advanced stereoscopic VR video player supporting Side-by-Side (SBS), Over-Under, 180°/360° immersive projection, Anaglyph 3D, and customizable camera optics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
